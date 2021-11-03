@@ -1,13 +1,24 @@
 --- 
 title: "Arabesque documentation"
-author: "Françoise BAHOKEN, Étienne CÔME & Laurent JÉGOU (coord.) </br> Grégoire LE CAMPION, Marion MAISONOBE & Nicolas ROELANDT"
+author: 
+  -"Françoise BAHOKEN (coord.)"
+  - "Étienne CÔME (coord.)"
+  - "Laurent JÉGOU (coord.)"
+  - "Grégoire LE CAMPION"
+  - "Marion MAISONOBE" 
+  - "Nicolas ROELANDT"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
+colorlinks: yes
+lot: yes
+lof: yes
+fontsize: 12pt
 description: "Online documentation of the Arabesque web flow mapping application"
+knit: "bookdown::render_book"
 ---
 
 <!-- index.Rmd has to have some content in it or it won't create an index.html 
